@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{       int x1,y1,d,temp1,temp2,x2,y2;
+	clrscr();
+	printf("enter values 1");
+	scanf("%d%d",&x1,&y1);
+	printf("values 2");
+	scanf("%d%d",&x2,&y2);
+	temp1=pow((x2-x1),2);
+	temp2=pow((y2-y1),2);
+	d=sqrt(temp1+temp2);
+	printf("%d",d);
+	getch();
+}

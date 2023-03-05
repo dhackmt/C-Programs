@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,n,sum=0;
+	clrscr();
+	printf("enter a number");
+	scanf("%d",&n);
+	for(i=1;i<=n/2;i++)
+	{
+	    sum=sum+i;
+	}
+	if(sum==n)
+	{
+	   printf("number is perfect");
+	}
+	else
+	{
+	   printf("noo");
+	}
+	getch();
+}

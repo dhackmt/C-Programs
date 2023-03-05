@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,max;
+	printf("enter two numbers");
+	scanf("%d%d",&a,&b);
+	if(a==b)
+	{
+	     printf("\nBoth are equal");
+	     return 0;
+	}
+	max=(a>b)?a:b;
+	printf("maximum is %d",max);
+	return 0;
+}

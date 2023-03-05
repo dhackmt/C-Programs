@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+	int i,n,m,sum=0;
+	clrscr();
+	printf("enter 2 numbers");
+	scanf("%d%d",&n,&m);
+	for(i=1;i<=m;i++)
+	{
+	  sum=sum+n;
+	}
+	printf("%d",sum);
+	getch();
+}

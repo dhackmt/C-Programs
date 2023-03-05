@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,sum=0,dig,x,y;
+	clrscr();
+	printf("enter range");
+	scanf("%d%d",&x,&y);
+	for(i=x;i<=y;i++)
+	{
+	    sum=sum+i;
+	}
+	printf("sum of all numbers is %d",sum);
+	getch();
+}

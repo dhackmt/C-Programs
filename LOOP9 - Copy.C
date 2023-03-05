@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n,f,l,i,sum=0;
+	clrscr();
+	printf("enter n");
+	scanf("%d",&n);
+	l=n%10;
+	while(n!=0)
+	{
+	   f=n%10;
+	   n=n/10;
+
+	}
+	sum=l+f;
+	printf("%d",sum);
+
+	getch();
+
+}
